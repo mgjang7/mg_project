@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  baekje-curtural-complex:
+    image: baekje-curtural-complex
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9229:3000"

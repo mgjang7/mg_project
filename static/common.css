@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './fonts.css';
+
+@layer components {
+
+.container-box {
+  /* padding-left: 16px;
+  padding-right: 16px; */
+  padding-left: 92px;
+  padding-right: 92px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+}
+.main-title {
+  font-size: 30px;
+  font-weight: 700; 
+  color:black;
+}
+
+/* buttons ======================================================================== */
+
+/* 엑셀 다운 */
+.excel-down-btn {
+  border:1px solid;
+  border-color: #16A34A;
+  border-radius: 4px;
+  background-color: #16A34A;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.excel-down-btn:hover{
+  border-color: #22C55E;
+  background-color: #22C55E;
+}
+
+/* 조회 */
+.search-btn {
+  border:1px solid;
+  /* border-color: #60A5FA; */
+  border-color: #001529;
+  /* border-radius: 0.5rem; */
+  border-radius: 4px;
+  /* background-color: #60A5FA; */
+  background-color: #001529;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.search-btn:hover{
+  border-color: #00006F;
+  background-color: #00006F;
+  /* border-color: #93C5FD;
+  background-color: #93C5FD; */
+}
+
+/* 등록 */
+.add-btn {
+  border:1px solid;
+  border-color: #3B82F6;
+  border-radius: 4px;
+  background-color: #3B82F6;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.add-btn:hover{
+  border-color: #1D4ED8;
+  background-color: #1D4ED8;
+}
+
+/* 취소 */
+.cancle-btn {
+  border:1px solid;
+  border-color: #e0e0e0;
+  border-radius: 4px;
+  background-color: white;
+  color: gray;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+}
+.cancle-btn:hover{
+  border-color: #e0e0e0;
+  background-color: #e0e0e0;
+}
+
+/* 목록 */
+.list-btn {
+  border:1px solid;
+  border-color: #e0e0e0;
+  border-radius: 4px;
+  background-color: white;
+  color: gray;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+}
+.list-btn:hover{
+  border-color: #e0e0e0;
+  background-color: #e0e0e0;
+}
+/* buttons ======================================================================== */
+/* tables ======================================================================== */
+table {
+  border-left: 0 !important;
+}
+.ant-table-thead > tr:first-child > th:last-child {
+  border-right: 0 !important;
+}
+
+.ant-table-row-cell-last {
+  border-right: 0 !important;
+}
+}
